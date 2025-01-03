@@ -2,7 +2,10 @@
 const nextConfig = {
     output: "export",
     reactStrictMode: true,
-    basePath: './portf' || ''
+    basePath: '/portf' || '',
+    images: {
+        unoptimized: true
+    }
 };
 
 export default nextConfig;
