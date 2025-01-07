@@ -3,7 +3,8 @@ const debug = process.env.NODE_ENV !== "production";
 const nextConfig = {
     output: "export",
     reactStrictMode: true,
-    'process.env.BACKEND_URL': !debug ? 'https://sriharshak95.github.io/portf' : ''
+    basePath: '/portf',
+    assetPrefix: '/portf'
 };
 
 export default nextConfig;
