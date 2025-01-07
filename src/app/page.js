@@ -43,7 +43,7 @@ export default function Home() {
             >
               <Image
                 className="dark:invert"
-                src="/vercel.svg"
+                src="/portf/vercel.svg"
                 alt="Vercel logomark"
                 width={20}
                 height={20}
@@ -71,7 +71,7 @@ export default function Home() {
         >
           <Image
             aria-hidden
-            src="/phone-call.svg"
+            src="/portf/phone-call.svg"
             alt="File icon"
             width={16}
             height={16}
@@ -86,7 +86,7 @@ export default function Home() {
         >
           <Image
             aria-hidden
-            src="/email.svg"
+            src="/portf/email.svg"
             alt="Window icon"
             width={16}
             height={16}
@@ -101,7 +101,7 @@ export default function Home() {
         >
           <Image
             aria-hidden
-            src="/github.svg"
+            src="/portf/github.svg"
             alt="Globe icon"
             width={16}
             height={16}
