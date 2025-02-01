@@ -6,7 +6,7 @@ export default function Home() {
   const [accordionOpen, setAccordionOpen] = useState(false);
   const buttonClasses = {
     black: "rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5",
-    white: "rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
+    white: "rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
   }
   return (
     <div className="min-h-screen grid grid-rows-1 font-[family-name:var(--font-geist-mono)]">
@@ -36,6 +36,18 @@ export default function Home() {
               <h2 className="font-semibold mb-2">Full Stack Developer at Notitia,  Melbourne</h2>
               <div className="mb-3">
                 <p className="text-sm">Collaborated with team members and internal stakeholders to ensure successful project delivery.Established CI/CD pipelines using Azure DevOps, enabled seamless deployment of front-end and back-end applications on Azure App Engines.</p>
+              </div>
+              <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
+                <li className="mb-2">Designed and implemented a parser to convert JSON configurations into interactive user interfaces using React.js web components.</li>
+                <li className="mb-2">Modified Figma mockups to meet business requirements by analyzing a legacy system, identifying and addressing redundancies and technical difficulties.</li>
+                <li className="mb-2">Mentored junior developers on new code generation tools, improving team efficiency.</li>
+                <li className="mb-2">Participated in Agile Scrum practices, contributing to sprint planning, daily stand-ups, and retrospective meetings to ensure timely and efficient project delivery.</li>
+              </ol>
+            </div>
+            <div className="workExperience">
+              <h2 className="font-semibold mb-2">Front End Developer at Starlly,  Bangalore</h2>
+              <div className="mb-3">
+                <p className="text-sm">Involved in the development of a Lead Management system and Web pages for capturing customer leads for the client.</p>
               </div>
               <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
                 <li className="mb-2">Designed and implemented a parser to convert JSON configurations into interactive user interfaces using React.js web components.</li>
